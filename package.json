@@ -1,0 +1,23 @@
+{
+  "name": "is-hot",
+  "version": "1.0.0",
+  "description": "is hot app",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlebedynskyi/is-hot.git"
+  },
+  "author": "Dima Lebedynskyi <dima.lebedinsky@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dlebedynskyi/is-hot/issues"
+  },
+  "homepage": "https://github.com/dlebedynskyi/is-hot#readme"
+}
