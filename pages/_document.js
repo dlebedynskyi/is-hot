@@ -24,7 +24,7 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>{`${title || 'Is it hot?'}`}</title>
+          <title>{title || 'Is it hot?'}</title>
           <meta httpEquiv="x-dns-prefetch-control" content="on" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="description" content="Is it hot - app" />

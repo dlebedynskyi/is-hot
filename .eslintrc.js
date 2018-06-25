@@ -1,5 +1,15 @@
 module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+  },
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
   rules: {
     'react/jsx-filename-extension': 0,
     'implicit-arrow-linebreak': 0,

@@ -28,7 +28,7 @@
     "dev": "next dev",
     "start": "next start",
     "precommit": "lint-staged",
-    "lint": "eslint pages header ui"
+    "lint": "eslint pages componenents ui"
   },
   "repository": {
     "type": "git",
